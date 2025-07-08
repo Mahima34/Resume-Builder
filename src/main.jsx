@@ -10,6 +10,7 @@ import Dashboard from './dashboard/index.jsx'
 import { ClerkProvider } from '@clerk/clerk-react'
 import Header from './components/custom/Header.jsx'
 
+
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 const  router=createBrowserRouter([
   {
